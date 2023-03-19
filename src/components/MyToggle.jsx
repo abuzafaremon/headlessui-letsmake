@@ -5,7 +5,7 @@ const MyToggle = () => {
   const [enabled, setEnabled] = useState(false);
 
   return (
-    <div className="py-16 w-full text-center">
+    <div className="w-full min-h-screen text-center">
       <Switch
         checked={enabled}
         onChange={setEnabled}
